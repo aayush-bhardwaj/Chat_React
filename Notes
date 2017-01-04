@@ -1,3 +1,40 @@
-installation -
+URL - https://www.youtube.com/watch?v=pTHCwUdGFkc
 
-1. npm install -g gulp bower nodemon
+BackBoneJS -
+AngularJS -
+
+meteor
+spine
+
+
+2013 - ReactJS - opensourced in 2013.
+ReactJS is the most popular JS library. Facebook,Instagram
+EmberJS is still popular - LinkedIn, Twitch
+
+Angular is like dead man walking.
+
+Why React?
+
+1. In Simple-JS Tic-tac-Toe we have to parse the DOM and find out which square has what element.
+2. After every move we will clculate the winner, a fairly expensive operation.
+
+3. We cannot save the game to come back and play later.
+  - The only way to do so is to store all the states and teh entire DOM representation .
+  - Imaging to save the DOM of Facebook page , ridiculous.
+4. How to validate if the square is already taken -
+  - We have to check teh innerHTML of teh square to validate.
+
+We should not write to the DOM directly.
+
+Solution -
+
+- Let's just write to a Javascript object .
+- Store a game in one place.
+- Have a rendering fun. (pure fun)
+- Will always do the same thing if you give the same input
+- render fun() will output the representation of HTML and then write it to the DOM
+
+Source of truth was teh DOM but should be the Database.
+Queries -
+
+1. flex and CSS.
